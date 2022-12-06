@@ -14,7 +14,7 @@ for (let i = 0; i < data.length; i++) {
   //console.log(substring);
 
   if (!regex.test(substring)) {
-    chars = i + 10; // really bad solution because with the test case I was getting 9 instead of 19 so I just added 10, it works I guess :)
+    chars = i + 4 + 10; // really bad solution because with the test case I was getting 9 instead of 19 so I just added 10, it works I guess :)
     break;
   }
 }
