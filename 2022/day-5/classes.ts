@@ -35,13 +35,4 @@ export class Stack {
   peek() {
     return this.container[this.container.length - 1];
   }
-
-  isEmpty() {
-    return this.container.length === 0;
-  }
-
-  log() {
-    console.log(this.container.toString());
-    return;
-  }
 }
