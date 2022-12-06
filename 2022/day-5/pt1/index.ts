@@ -2,7 +2,7 @@ import { Stack } from "../classes.ts";
 
 const data = await Deno.readTextFile("../data.txt");
 const stacks: Stack[] = [
-  new Stack(), // TODO: make shifting to 1 better.
+  new Stack(), // Really bad solution to shift array by 1, but its probably fine.
   new Stack(),
   new Stack(),
   new Stack(),
